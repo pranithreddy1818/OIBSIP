@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#upper{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    padding: 18px 16px;
+    font-size: 20px;
+    height: 60px;
+    justify-content: space-between;
+}
+#t{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#top-left{
+    font-size: 25px;
+    margin-top: -5px;
+}
+#top-center a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #000;
+}
+#top-right button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+#top-right button:hover{
+    cursor: pointer;
+    transition: .5s ease;
+    transform: scale(1.08);
+    box-shadow: 0px 6px 20px rgb(0, 0, 0), 0
+    px 2px 0px rgba(0, 0, 0.09);
+}
+#exp{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    font-size: 105px;
+    width: fit-content;
+    rotate: 270deg;
+}
+#world{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 19%;
+    font-size: 105px;
+    width: fit-content;
+}
+#center{
+    display: flex;
+    position: absolute;
+    left: 16%;
+    top: 29%;
+    border-top:1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 40px;
+    width: 60%;
+    height: 52%;
+}
+#img_1{
+    width: 455px;
+    height: 300px;
+    display: flex;
+    position:absolute;
+    left: 2%;
+    top: 5%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+#img_2{
+    display: flex;
+    position: absolute;
+    left: 62.5%;
+    top: 23%;
+    border-radius: 25px;
+    width: 300px;
+}
+#txt{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 57%;
+    top: 7%;
+    background-color: #ffff7df9;
+    width: 170px;
+    height: 60px;
+    padding: 30px 23px;
+    border-radius: 20px;
+}
+#txt pre{
+    display: flex;
+    position: absolute;
+    font-size: small;
+    left: 60%;
+    top: 63%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tips{
+    position: absolute;
+    left: 3%;
+    top: 84%;
+    color: black;
+    width: 190px;
+    height: 100px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tips h4{
+    margin: 5px 0px;
+}
+#shape{
+    position: absolute;
+    text-align: center;
+    padding: 35px 0px;
+    left: 109%;
+    top: -10%;
+    width: 180px;
+    height: 40px;
+    border-radius: 50%;
+    rotate: -11deg;
+    border: 1px solid black;
+    /* animation: shapemovement 1s ease-out 0s infinite alternate ; */
+}
+/* @keyframes shapemovement {
+    from{
+        left: 109%;
+        top: -10%;
+    }
+    to{
+        left: 109%;
+        top:-35%;
+    }
+    
+} */
+#shape h3{
+    rotate: 11deg;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-weight:lighter;
+}
+#social{
+    position: absolute;
+    left: 117%;
+    top: 25%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#social a{
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+#social li{
+    list-style:none;
+    padding: 20px 0px;
+}
+#social a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#social li:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+#popdes{
+    margin: 0px 40px;
+    font-size: 40px;
+}
+#middle{
+    margin: 0px 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.card{
+    width: 100%;
+    margin-top: -20px;
+}
+#dest-details{
+    font-size: 55px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card img{
+   width: 230px;
+   height: 210px;
+   border-radius: 15px;
+   padding: 0px 5px;
+}
+#book-now{
+    display: flex;
+    position: relative;
+    top: -12%;
+    left: 45%;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #000;
+    color: #fff;
+}
+#book-now:hover{
+    cursor: pointer;
+    transition: .5s ease;
+    transform: scale(1.08);
+    box-shadow: 0px 6px 20px rgb(0, 0, 0), 0
+    px 2px 0px rgba(0, 0, 0.09);
+}
+#lower-middle{
+    width: 100%;
+    height: 500px;
+}
+#deals{
+    width: fit-content;
+    font-size: 40px;
+    margin: 30px 40px;
+}
+#p2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top:-70px;
+    left: 90%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#deal-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    
+}
+#deal-card p{
+    margin:7px 30px;
+    font-size: 25px;
+}
+#deal-card small{
+    font-size: 15px;
+}
+#deal-card img{
+    width: 300px;
+    height: 400px;
+    margin: 5px 25px;
+}
+#footer{
+    display: flex;
+    position: absolute;
+    top: 250%;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.929);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+}
